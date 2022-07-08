@@ -1,0 +1,53 @@
+﻿[
+  {
+    file: "game:worldproperties/abstract/glasstype.json",
+    op: "replace",
+    path: "/variants",
+    value: [
+      {
+        "code": "plain",
+        "meltingPoint": 1300
+      },
+      {
+        "code": "vintage",
+        "meltingPoint": 1400
+      },
+      {
+        "code": "smoky",
+        "meltingPoint": 1500
+      },
+      {
+        "code": "quartz",
+        "meltingPoint": 1600
+      },
+      {
+        "code": "red",
+        "meltingPoint": 1350
+      },
+      {
+        "code": "green",
+        "meltingPoint": 1350
+      },
+      {
+        "code": "blue",
+        "meltingPoint": 1350
+      },
+      {
+        "code": "yellow",
+        "meltingPoint": 1350
+      },
+      {
+        "code": "brown",
+        "meltingPoint": 1350
+      },
+      {
+        "code": "pink",
+        "meltingPoint": 1350
+      },
+      {
+        "code": "violet",
+        "meltingPoint": 1350
+      }
+    ]
+  }
+]

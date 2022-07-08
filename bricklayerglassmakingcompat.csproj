@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0ff82af6-30cf-45db-b5ba-d73e9b376895}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>bricklayerglassmakingcompat</RootNamespace>
+    <AssemblyName>bricklayerglassmakingcompat</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\Debug\bricklayerglassmakingcompat\</OutputPath>
+    <IntermediateOutputPath>..\..\obj\Debug\bricklayerglassmakingcompat\</IntermediateOutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\Release\bricklayerglassmakingcompat\</OutputPath>
+    <IntermediateOutputPath>..\..\obj\Release\bricklayerglassmakingcompat\</IntermediateOutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+
+
+    <Reference Include="Microsoft.CSharp" />
+
+    <Reference Include="System.Data" />
+
+    <Reference Include="System.Net.Http" />
+
+    <Reference Include="System.Xml" />
+
+    <Reference Include="VintagestoryAPI">
+      <HintPath>$(AppData)\Vintagestory\VintagestoryAPI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+
+    <Reference Include="VSSurvivalMod">
+      <HintPath>$(AppData)\Vintagestory\Mods\VSSurvivalMod.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+
+    <Reference Include="VSEssentials">
+      <HintPath>$(AppData)\Vintagestory\Mods\VSEssentials.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+
+    <Reference Include="VSCreativeMod">
+      <HintPath>$(AppData)\Vintagestory\Mods\VSCreativeMod.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>$(AppData)\Vintagestory\Lib\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\" />
+    <Folder Include="src\" />
+    <Content Include="assets\bricklayerglassmakingcompat\blocktypes\glass2slabcastmold.json" />
+    <Content Include="assets\bricklayerglassmakingcompat\blocktypes\glass6panecastmold.json" />
+    <Content Include="assets\bricklayerglassmakingcompat\blocktypes\glassblockcastmold.json" />
+    <Content Include="assets\bricklayerglassmakingcompat\blocktypes\glasspanecastmold.json" />
+    <Content Include="assets\bricklayerglassmakingcompat\blocktypes\glassslabcastmold.json" />
+    <Content Include="assets\bricklayerglassmakingcompat\lang\en.json" />
+    <Content Include="assets\bricklayerglassmakingcompat\patches\deactivate_blend_items.json" />
+    <Content Include="assets\bricklayerglassmakingcompat\patches\edit_bricklayers_glass_batch.json" />
+    <Content Include="assets\bricklayerglassmakingcompat\patches\edit_glassmaking_melting_points.json" />
+    <Content Include="assets\bricklayerglassmakingcompat\recipes\clayforming\glass2slabcastmold.json" />
+    <Content Include="assets\bricklayerglassmakingcompat\recipes\clayforming\glass6panecastmold.json" />
+    <Content Include="assets\bricklayerglassmakingcompat\recipes\clayforming\glassblockcastmold.json" />
+    <Content Include="assets\bricklayerglassmakingcompat\recipes\clayforming\glasspanecastmold.json" />
+    <Content Include="assets\bricklayerglassmakingcompat\recipes\clayforming\glassslabcastmold.json" />
+    <Content Include="assets\bricklayerglassmakingcompat\recipes\grid\plain_nocolor_glassbatch.json" />
+    <Content Include="assets\bricklayerglassmakingcompat\shapes\block\clay\glass2slabcastmold.json" />
+    <Content Include="assets\bricklayerglassmakingcompat\shapes\block\clay\glass6panecastmold.json" />
+    <Content Include="assets\bricklayerglassmakingcompat\shapes\block\clay\glassblockcastmold.json" />
+    <Content Include="assets\bricklayerglassmakingcompat\shapes\block\clay\glasspanecastmold.json" />
+    <Content Include="assets\bricklayerglassmakingcompat\shapes\block\clay\glassslabcastmold.json" />
+    <Content Include="assets\bricklayers\textures\block\glass\dark-black.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\dark-blue.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\dark-brown.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\dark-green.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\dark-orange.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\dark-pink.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\dark-red.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\dark-violet.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\dark-yellow.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\milky-black.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\milky-blue.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\milky-brown.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\milky-green.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\milky-orange.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\milky-pink.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\milky-red.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\milky-violet.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\milky-yellow.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\opaque-black.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\opaque-blue.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\opaque-brown.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\opaque-green.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\opaque-orange.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\opaque-pink.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\opaque-red.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\opaque-violet.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\opaque-white.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\opaque-yellow.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\plain-black.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\plain-blue.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\plain-brown.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\plain-green.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\plain-orange.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\plain-pink.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\plain-red.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\plain-violet.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\plain-yellow.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\quartz-black.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\quartz-blue.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\quartz-brown.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\quartz-green.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\quartz-orange.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\quartz-pink.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\quartz-red.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\quartz-violet.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\quartz-yellow.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\smoky-black.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\smoky-blue.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\smoky-brown.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\smoky-green.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\smoky-orange.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\smoky-pink.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\smoky-red.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\smoky-violet.png" />
+    <Content Include="assets\bricklayers\textures\block\glass\smoky-yellow.png" />
+    <Content Include="assets\bricklayers\textures\item\resource\glassbatch\nocolor.png" />
+    <Content Include="assets\bricklayers\worldproperties\abstract\glasstype.json" />
+    <Content Include="blend_textures.py" />
+    <Content Include="bricklayer_glass_block_textures\glass\dark\black.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\dark\blue.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\dark\brown.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\dark\green.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\dark\orange.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\dark\pink.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\dark\red.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\dark\violet.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\dark\yellow.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\normal\black.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\normal\black_normal.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\normal\blue.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\normal\brown.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\normal\green.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\normal\orange.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\normal\orange_normal.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\normal\pink.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\normal\plain_normal.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\normal\red.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\normal\violet.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\normal\white.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\normal\yellow.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\opaque\black.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\opaque\blue.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\opaque\brown.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\opaque\green.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\opaque\orange.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\opaque\pink.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\opaque\red.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\opaque\violet.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\opaque\white.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\opaque\yellow.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\overlay_milky.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\overlay_opaque.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\overlay_quartz.png" />
+    <Content Include="bricklayer_glass_block_textures\glass\overlay_smoky.png" />
+    <Content Include="fix_names.py" />
+    <Content Include="generate_glass_batch_attributes.py" />
+    <Content Include="generate_glass_type_meltingpoints.py" />
+    <Content Include="info_about_glass.readme" />
+    <Content Include="modinfo.json" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

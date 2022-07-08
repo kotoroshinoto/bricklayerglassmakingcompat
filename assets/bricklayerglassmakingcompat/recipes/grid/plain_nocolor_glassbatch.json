@@ -1,0 +1,24 @@
+﻿[
+  {
+    "ingredientPattern": "LS,QQ",
+    "ingredients": {
+      "L": { "type": "item", "code": "game:lime" },
+      "S": { "type": "block", "code": "game:sand-*", "quantity": 1, "name": "sand", "allowedVariants": [ "andesite", "chalk", "conglomerate", "claystone", "granite", "limestone", "peridotite", "phyllite", "sandstone" ] },
+      "Q": { "type": "item", "code": "game:crushed-quartz", "quantity": 1 }
+    },
+    "width": 2,
+    "height": 2,
+    "output": { "type": "item", "code": "bricklayers:glassbatch-plain-nocolor", "quantity": 4 }
+  },
+  {
+    "ingredientPattern": "LS,QQ",
+    "ingredients": {
+      "L": { "type": "item", "code": "game:lime" },
+      "S": { "type": "block", "code": "game:sand-*", "quantity": 1, "name": "sand", "allowedVariants": [ "andesite", "chalk", "conglomerate", "claystone", "granite", "limestone", "peridotite", "phyllite", "sandstone" ] },
+      "Q": { "type": "item", "code": "bricklayers:powdered-quartz", "quantity": 2 }
+    },
+    "width": 2,
+    "height": 2,
+    "output": { "type": "item", "code": "bricklayers:glassbatch-plain-nocolor", "quantity": 4 }
+  }
+]

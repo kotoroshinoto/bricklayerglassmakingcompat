@@ -1,0 +1,793 @@
+﻿[
+  {
+    file: "bricklayers:itemtypes/resource/glass_batch.json",
+    op: "remove",
+    path: "/combustiblePropsByType"
+  },
+  {
+    file: "bricklayers:itemtypes/resource/glass_batch.json", 
+    op: "add",
+    path: "/variantgroups/1/states/-",
+    value: "nocolor"
+  },
+  {
+    file: "bricklayers:itemtypes/resource/glass_batch.json",
+    op: "add",
+    path: "/skipVariants/-",
+    value: "@.*(dark|milky|quartz|smoky|opaque)-nocolor"
+  },
+  {
+    file: "bricklayers:itemtypes/resource/glass_batch.json",
+    op: "replace",
+    path: "/attributesByType",
+    value: {
+      "*-plain-nocolor": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-plain-nocolor"
+          } ],
+          "groupBy": "*-plain-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "game:plain",
+          "amount": 500
+        }
+      },
+      "*-plain-black": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-plain"
+          } ],
+          "groupBy": "*-plain-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:plain-black",
+          "amount": 250
+        }
+      },
+      "*-plain-blue": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-plain"
+          } ],
+          "groupBy": "*-plain-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "game:blue",
+          "amount": 250
+        }
+      },
+      "*-plain-brown": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-plain"
+          } ],
+          "groupBy": "*-plain-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "game:brown",
+          "amount": 250
+        }
+      },
+      "*-plain-green": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-plain"
+          } ],
+          "groupBy": "*-plain-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "game:green",
+          "amount": 250
+        }
+      },
+      "*-plain-orange": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-plain"
+          } ],
+          "groupBy": "*-plain-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:plain-orange",
+          "amount": 250
+        }
+      },
+      "*-plain-pink": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-plain"
+          } ],
+          "groupBy": "*-plain-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "game:pink",
+          "amount": 250
+        }
+      },
+      "*-plain-red": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-plain"
+          } ],
+          "groupBy": "*-plain-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "game:red",
+          "amount": 250
+        }
+      },
+      "*-plain-violet": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-plain"
+          } ],
+          "groupBy": "*-plain-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "game:violet",
+          "amount": 250
+        }
+      },
+      "*-plain-yellow": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-plain"
+          } ],
+          "groupBy": "*-plain-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "game:yellow",
+          "amount": 250
+        }
+      },
+      "*-quartz-smoky": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-quartz-smoky"
+          } ],
+          "groupBy": "*-quartz-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "game:quartz",
+          "amount": 500
+        }
+      },
+      "*-quartz-black": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-quartz"
+          } ],
+          "groupBy": "*-quartz-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:quartz-black",
+          "amount": 250
+        }
+      },
+      "*-quartz-blue": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-quartz"
+          } ],
+          "groupBy": "*-quartz-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:quartz-blue",
+          "amount": 250
+        }
+      },
+      "*-quartz-brown": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-quartz"
+          } ],
+          "groupBy": "*-quartz-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:quartz-brown",
+          "amount": 250
+        }
+      },
+      "*-quartz-green": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-quartz"
+          } ],
+          "groupBy": "*-quartz-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:quartz-green",
+          "amount": 250
+        }
+      },
+      "*-quartz-orange": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-quartz"
+          } ],
+          "groupBy": "*-quartz-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:quartz-orange",
+          "amount": 250
+        }
+      },
+      "*-quartz-pink": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-quartz"
+          } ],
+          "groupBy": "*-quartz-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:quartz-pink",
+          "amount": 250
+        }
+      },
+      "*-quartz-red": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-quartz"
+          } ],
+          "groupBy": "*-quartz-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:quartz-red",
+          "amount": 250
+        }
+      },
+      "*-quartz-violet": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-quartz"
+          } ],
+          "groupBy": "*-quartz-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:quartz-violet",
+          "amount": 250
+        }
+      },
+      "*-quartz-yellow": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-quartz"
+          } ],
+          "groupBy": "*-quartz-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:quartz-yellow",
+          "amount": 250
+        }
+      },
+      "*-milky-smoky": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-milky-smoky"
+          } ],
+          "groupBy": "*-milky-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "game:vintage",
+          "amount": 500
+        }
+      },
+      "*-milky-black": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-milky"
+          } ],
+          "groupBy": "*-milky-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:milky-black",
+          "amount": 250
+        }
+      },
+      "*-milky-blue": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-milky"
+          } ],
+          "groupBy": "*-milky-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:milky-blue",
+          "amount": 250
+        }
+      },
+      "*-milky-brown": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-milky"
+          } ],
+          "groupBy": "*-milky-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:milky-brown",
+          "amount": 250
+        }
+      },
+      "*-milky-green": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-milky"
+          } ],
+          "groupBy": "*-milky-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:milky-green",
+          "amount": 250
+        }
+      },
+      "*-milky-orange": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-milky"
+          } ],
+          "groupBy": "*-milky-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:milky-orange",
+          "amount": 250
+        }
+      },
+      "*-milky-pink": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-milky"
+          } ],
+          "groupBy": "*-milky-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:milky-pink",
+          "amount": 250
+        }
+      },
+      "*-milky-red": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-milky"
+          } ],
+          "groupBy": "*-milky-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:milky-red",
+          "amount": 250
+        }
+      },
+      "*-milky-violet": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-milky"
+          } ],
+          "groupBy": "*-milky-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:milky-violet",
+          "amount": 250
+        }
+      },
+      "*-milky-yellow": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-milky"
+          } ],
+          "groupBy": "*-milky-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:milky-yellow",
+          "amount": 250
+        }
+      },
+      "*-smoky-smoky": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-smoky-smoky"
+          } ],
+          "groupBy": "*-smoky-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "game:smoky",
+          "amount": 500
+        }
+      },
+      "*-smoky-black": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-smoky"
+          } ],
+          "groupBy": "*-smoky-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:smoky-black",
+          "amount": 250
+        }
+      },
+      "*-smoky-blue": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-smoky"
+          } ],
+          "groupBy": "*-smoky-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:smoky-blue",
+          "amount": 250
+        }
+      },
+      "*-smoky-brown": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-smoky"
+          } ],
+          "groupBy": "*-smoky-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:smoky-brown",
+          "amount": 250
+        }
+      },
+      "*-smoky-green": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-smoky"
+          } ],
+          "groupBy": "*-smoky-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:smoky-green",
+          "amount": 250
+        }
+      },
+      "*-smoky-orange": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-smoky"
+          } ],
+          "groupBy": "*-smoky-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:smoky-orange",
+          "amount": 250
+        }
+      },
+      "*-smoky-pink": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-smoky"
+          } ],
+          "groupBy": "*-smoky-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:smoky-pink",
+          "amount": 250
+        }
+      },
+      "*-smoky-red": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-smoky"
+          } ],
+          "groupBy": "*-smoky-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:smoky-red",
+          "amount": 250
+        }
+      },
+      "*-smoky-violet": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-smoky"
+          } ],
+          "groupBy": "*-smoky-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:smoky-violet",
+          "amount": 250
+        }
+      },
+      "*-smoky-yellow": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-smoky"
+          } ],
+          "groupBy": "*-smoky-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:smoky-yellow",
+          "amount": 250
+        }
+      },
+      "*-dark-black": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-dark"
+          } ],
+          "groupBy": "*-dark-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:dark-black",
+          "amount": 250
+        }
+      },
+      "*-dark-blue": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-dark"
+          } ],
+          "groupBy": "*-dark-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:dark-blue",
+          "amount": 250
+        }
+      },
+      "*-dark-brown": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-dark"
+          } ],
+          "groupBy": "*-dark-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:dark-brown",
+          "amount": 250
+        }
+      },
+      "*-dark-green": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-dark"
+          } ],
+          "groupBy": "*-dark-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:dark-green",
+          "amount": 250
+        }
+      },
+      "*-dark-orange": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-dark"
+          } ],
+          "groupBy": "*-dark-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:dark-orange",
+          "amount": 250
+        }
+      },
+      "*-dark-pink": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-dark"
+          } ],
+          "groupBy": "*-dark-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:dark-pink",
+          "amount": 250
+        }
+      },
+      "*-dark-red": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-dark"
+          } ],
+          "groupBy": "*-dark-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:dark-red",
+          "amount": 250
+        }
+      },
+      "*-dark-violet": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-dark"
+          } ],
+          "groupBy": "*-dark-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:dark-violet",
+          "amount": 250
+        }
+      },
+      "*-dark-yellow": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-dark"
+          } ],
+          "groupBy": "*-dark-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:dark-yellow",
+          "amount": 250
+        }
+      },
+      "*-opaque-black": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-opaque"
+          } ],
+          "groupBy": "*-opaque-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:opaque-black",
+          "amount": 250
+        }
+      },
+      "*-opaque-blue": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-opaque"
+          } ],
+          "groupBy": "*-opaque-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:opaque-blue",
+          "amount": 250
+        }
+      },
+      "*-opaque-brown": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-opaque"
+          } ],
+          "groupBy": "*-opaque-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:opaque-brown",
+          "amount": 250
+        }
+      },
+      "*-opaque-green": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-opaque"
+          } ],
+          "groupBy": "*-opaque-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:opaque-green",
+          "amount": 250
+        }
+      },
+      "*-opaque-orange": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-opaque"
+          } ],
+          "groupBy": "*-opaque-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:opaque-orange",
+          "amount": 250
+        }
+      },
+      "*-opaque-pink": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-opaque"
+          } ],
+          "groupBy": "*-opaque-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:opaque-pink",
+          "amount": 250
+        }
+      },
+      "*-opaque-red": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-opaque"
+          } ],
+          "groupBy": "*-opaque-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:opaque-red",
+          "amount": 250
+        }
+      },
+      "*-opaque-violet": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-opaque"
+          } ],
+          "groupBy": "*-opaque-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:opaque-violet",
+          "amount": 250
+        }
+      },
+      "*-opaque-yellow": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-opaque"
+          } ],
+          "groupBy": "*-opaque-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:opaque-yellow",
+          "amount": 250
+        }
+      },
+      "*-opaque-white": {
+        "handbook": {
+          "extraSections": [ {
+            "title": "handbook-item-usage",
+            "text": "handbook-item-usage-glassbatch-opaque"
+          } ],
+          "groupBy": "*-opaque-*"
+        },
+        "glassmaking:glassblend": {
+          "code": "bricklayers:opaque-white",
+          "amount": 250
+        }
+      }
+    }
+  }
+]

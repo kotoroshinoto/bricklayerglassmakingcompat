@@ -1,0 +1,197 @@
+﻿{
+  "code": "glasstype",
+  "variants": [
+    {
+      "code": "plain-black",
+      "meltingPoint": 1350
+    },
+    {
+      "code": "plain-orange",
+      "meltingPoint": 1350
+    },
+    {
+      "code": "quartz-black",
+      "meltingPoint": 1650
+    },
+    {
+      "code": "quartz-blue",
+      "meltingPoint": 1650
+    },
+    {
+      "code": "quartz-brown",
+      "meltingPoint": 1650
+    },
+    {
+      "code": "quartz-green",
+      "meltingPoint": 1650
+    },
+    {
+      "code": "quartz-orange",
+      "meltingPoint": 1650
+    },
+    {
+      "code": "quartz-pink",
+      "meltingPoint": 1650
+    },
+    {
+      "code": "quartz-red",
+      "meltingPoint": 1650
+    },
+    {
+      "code": "quartz-violet",
+      "meltingPoint": 1650
+    },
+    {
+      "code": "quartz-yellow",
+      "meltingPoint": 1650
+    },
+    {
+      "code": "milky-black",
+      "meltingPoint": 1450
+    },
+    {
+      "code": "milky-blue",
+      "meltingPoint": 1450
+    },
+    {
+      "code": "milky-brown",
+      "meltingPoint": 1450
+    },
+    {
+      "code": "milky-green",
+      "meltingPoint": 1450
+    },
+    {
+      "code": "milky-orange",
+      "meltingPoint": 1450
+    },
+    {
+      "code": "milky-pink",
+      "meltingPoint": 1450
+    },
+    {
+      "code": "milky-red",
+      "meltingPoint": 1450
+    },
+    {
+      "code": "milky-violet",
+      "meltingPoint": 1450
+    },
+    {
+      "code": "milky-yellow",
+      "meltingPoint": 1450
+    },
+    {
+      "code": "smoky-black",
+      "meltingPoint": 1550
+    },
+    {
+      "code": "smoky-blue",
+      "meltingPoint": 1550
+    },
+    {
+      "code": "smoky-brown",
+      "meltingPoint": 1550
+    },
+    {
+      "code": "smoky-green",
+      "meltingPoint": 1550
+    },
+    {
+      "code": "smoky-orange",
+      "meltingPoint": 1550
+    },
+    {
+      "code": "smoky-pink",
+      "meltingPoint": 1550
+    },
+    {
+      "code": "smoky-red",
+      "meltingPoint": 1550
+    },
+    {
+      "code": "smoky-violet",
+      "meltingPoint": 1550
+    },
+    {
+      "code": "smoky-yellow",
+      "meltingPoint": 1550
+    },
+    {
+      "code": "dark-black",
+      "meltingPoint": 1375
+    },
+    {
+      "code": "dark-blue",
+      "meltingPoint": 1375
+    },
+    {
+      "code": "dark-brown",
+      "meltingPoint": 1375
+    },
+    {
+      "code": "dark-green",
+      "meltingPoint": 1375
+    },
+    {
+      "code": "dark-orange",
+      "meltingPoint": 1375
+    },
+    {
+      "code": "dark-pink",
+      "meltingPoint": 1375
+    },
+    {
+      "code": "dark-red",
+      "meltingPoint": 1375
+    },
+    {
+      "code": "dark-violet",
+      "meltingPoint": 1375
+    },
+    {
+      "code": "dark-yellow",
+      "meltingPoint": 1375
+    },
+    {
+      "code": "opaque-black",
+      "meltingPoint": 1575
+    },
+    {
+      "code": "opaque-blue",
+      "meltingPoint": 1575
+    },
+    {
+      "code": "opaque-brown",
+      "meltingPoint": 1575
+    },
+    {
+      "code": "opaque-green",
+      "meltingPoint": 1575
+    },
+    {
+      "code": "opaque-orange",
+      "meltingPoint": 1575
+    },
+    {
+      "code": "opaque-pink",
+      "meltingPoint": 1575
+    },
+    {
+      "code": "opaque-red",
+      "meltingPoint": 1575
+    },
+    {
+      "code": "opaque-violet",
+      "meltingPoint": 1575
+    },
+    {
+      "code": "opaque-yellow",
+      "meltingPoint": 1575
+    },
+    {
+      "code": "opaque-white",
+      "meltingPoint": 1575
+    }
+  ]
+}

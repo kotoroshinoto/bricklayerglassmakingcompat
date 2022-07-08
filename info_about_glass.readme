@@ -1,0 +1,34 @@
+﻿bricklayers:
+
+glass_types: dark, milky, opaque, plain, quartz, smoky
+frit_and_glass_colors: black, blue, brown, green, orange, pink, red, violet, yellow
+
+
+frit-mix-[color]
+frit-baked-[color]
+frit-ground-[color]
+
+glassbatch-[type]-[color]
+
+glasscolored-[type]-[color]
+glasstile-normal-[type]-[color]-down
+glassslab-[type]-[color]-down-free
+
+'plain' provided by glasscolored:
+glasscolored-plain-black
+glasscolored-plain-orange
+glasscolored-plain-black
+
+
+otherwise 'plain' batch recipes smelt to these from base vintagestory game:
+glass-vintage
+glass-quartz
+glass-smoky
+glass-plain
+glass-pink
+glass-brown
+glass-yellow
+glass-red
+glass-violet
+glass-blue
+glass-green

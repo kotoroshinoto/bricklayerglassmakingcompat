@@ -1,0 +1,8 @@
+﻿[
+  {
+    file: "glassmaking:itemtypes/resource/glassblend.json",
+    op: "add",
+    path: "/enabled",
+    value: false
+  }
+]

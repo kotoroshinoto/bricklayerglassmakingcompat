@@ -1,0 +1,164 @@
+{
+	"__comment": "give the slab mold 500 units, and the pane 150 units; also make a 2 slab (1000)/ 6 pane (900) mold",
+	"code": "glassslabcastmold",
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": ["raw", "fired"]
+		}
+	],
+	"behaviorsByType": {
+		"*-raw": [
+			{ "name": "GroundStorable", "properties": { "layout": "SingleCenter" } },
+			{ "name": "Unplaceable", "__comment": "The ground storable obsoletes this being a block. Should be an item, but is kept a block for backwards compatibility" },
+			{ "name": "RightClickPickup"}
+		],
+		"*": [{"name": "UnstableFalling"}]
+	},
+	"entityClassByType": {
+		"*-fired": "glassmaking:castingmold"
+	},
+	"classByType": {
+		"*-fired": "glassmaking:castingmold"
+	},
+	"attributesByType": {
+		"*-fired" : {
+			"glassmaking:castingmold": [
+				{
+					"recipe": {
+						"code": "game:*",
+						"amount": 500,
+						"allowedVariants": [
+							"plain",
+							"blue",
+							"brown",
+							"green",
+							"pink",
+							"red",
+							"violet",
+							"yellow",
+							"quartz",
+							"vintage",
+							"smoky"
+						]
+					},
+					"output": {
+						"type": "block",
+						"code": "game:glassslab-*-down-free"
+					}
+				},
+				{
+					"recipe": {
+						"code": "bricklayers:*",
+						"amount": 500,
+						"allowedVariants": [
+							"plain-black",
+							"plain-orange",
+							"quartz-black",
+							"quartz-blue",
+							"quartz-brown",
+							"quartz-green",
+							"quartz-orange",
+							"quartz-pink",
+							"quartz-red",
+							"quartz-violet",
+							"quartz-yellow",
+							"milky-black",
+							"milky-blue",
+							"milky-brown",
+							"milky-green",
+							"milky-orange",
+							"milky-pink",
+							"milky-red",
+							"milky-violet",
+							"milky-yellow",
+							"smoky-black",
+							"smoky-blue",
+							"smoky-brown",
+							"smoky-green",
+							"smoky-orange",
+							"smoky-pink",
+							"smoky-red",
+							"smoky-violet",
+							"smoky-yellow",
+							"dark-black",
+							"dark-blue",
+							"dark-brown",
+							"dark-green",
+							"dark-orange",
+							"dark-pink",
+							"dark-red",
+							"dark-violet",
+							"dark-yellow",
+							"opaque-black",
+							"opaque-blue",
+							"opaque-brown",
+							"opaque-green",
+							"opaque-orange",
+							"opaque-pink",
+							"opaque-red",
+							"opaque-violet",
+							"opaque-yellow",
+							"opaque-white"
+						]
+					},
+					"output": {
+						"type": "block",
+						"code": "bricklayers:glassslabcolored-*-down-free"
+					}
+				}
+			],
+			"fillHeight": 7,
+			"fillQuadsByLevel": [
+				{
+					"x1": 1,
+					"z1": 1,
+					"x2": 15,
+					"z2": 15
+				}
+			]
+		}
+	},
+	"shape": { "base": "block/clay/glassslabcastmold" },
+	"blockmaterial": "Ceramic",
+	"texturesByType": {
+		"*-raw": { 
+			"inner": { "base": "game:block/clay/blueclay" },
+			"other": { "base": "game:block/clay/blueclay" }
+		},
+		"*-fired": {
+			"inner": { "base": "game:block/clay/ceramic-dark" },
+			"other": { "base": "game:block/clay/ceramic" }
+		}
+	}, 
+	"combustiblePropsByType": {
+		"glassslabcastmold-raw": {
+			"meltingPoint": 600,
+			"meltingDuration": 30,
+			"smeltedRatio": 1,
+			"smeltingType": "fire",
+			"smeltedStack": { "type": "block", "code": "glassslabcastmold-fired" },
+			"requiresContainer": false
+		}
+	},
+	"creativeinventory": {
+		"general": ["*"], "blocks": ["*"], "ceramics": ["*"], "glassmaking": ["*"]
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"collisionSelectionBox": {
+		"x1": 0.09375,
+		"y1": 0,
+		"z1": 0.09375,
+		"x2": 0.90625,
+		"y2": 0.75,
+		"z2": 0.90625
+	},
+	"lightAbsorption": 0,
+	"heldTpIdleAnimation": "holdbothhands",
+	"heldTpUseAnimation": "twohandplaceblock"
+}
